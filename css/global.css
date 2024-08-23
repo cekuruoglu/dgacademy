@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lato: "Lato-Regular", Helvetica;
+  --icon-color: #ffcc00;
+  --color-bg: #071E33;
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-19xl: 48px;
+
+  /* Colors */
+  --color-gray-100: #292929;
+  --color-gray-200: #071e33;
+  --color-white: #fff;
+  --color-gold-100: #ffcd05;
+  --color-gold-200: #ffcd00;
+  --color-gold-300: #ffcc00;
+  --color-goldenrod-100: #cc9900;
+  --color-goldenrod-200: rgba(204, 153, 0, 0.09);
+
+  /* Gaps */
+  --gap-10xl: 29px;
+  --gap-6xl: 25px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+  --gap-mini: 15px;
+  --gap-mid: 17px;
+  --gap-16xl: 35px;
+  --gap-8xl: 27px;
+  --gap-51xl: 70px;
+  --gap-lg: 18px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-16xl: 35px;
+  --padding-7xl: 26px;
+  --padding-smi: 13px;
+  --padding-4xs: 9px;
+  --padding-11xl: 30px;
+  --padding-13xl: 32px;
+  --padding-xl: 20px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+  --padding-lg: 18px;
+  --padding-31xl: 50px;
+  --padding-6xl: 25px;
+  --padding-2xs: 11px;
+  --padding-35xl: 54px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+
+  :root {
+    /* fonts */
+    --font-lato: Lato;
+
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+    --font-size-13xl: 32px;
+    --font-size-5xl: 24px;
+    --font-size-mini: 15px;
+    --font-size-21xl: 40px;
+    --font-size-sm: 14px;
+    --font-size-smi: 13px;
+    --font-size-xs: 12px;
+
+    /* Colors */
+    --color-gray-100: #292929;
+    --color-gray-200: #071e33;
+    --color-gray-300: #131313;
+    --color-white: #fff;
+    --color-darkgray: #a1a1a1;
+    --color-gold-100: #ffcd05;
+    --color-gold-200: #ffcc00;
+    --color-darkslategray: #404040;
+
+    /* Gaps */
+    --gap-5xl: 24px;
+    --gap-390xl: 409px;
+    --gap-xl: 20px;
+    --gap-7xs: 6px;
+    --gap-122xl-5: 141.5px;
+    --gap-10xl: 29px;
+    --gap-3xs: 10px;
+    --gap-mini: 15px;
+    --gap-2xs: 11px;
+
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-sm: 14px;
+    --padding-16xl: 35px;
+    --padding-xl: 20px;
+    --padding-11xs: 2px;
+    --padding-4xl: 23px;
+    --padding-xs: 12px;
+
+    /* Border radiuses */
+    --br-81xl: 100px;
+    --br-3xs: 10px;
+  }
+
+}
