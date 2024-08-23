@@ -655,6 +655,7 @@
 
     .consultation-images {
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .heading-card-features {
@@ -665,7 +666,10 @@
         padding-left: var(--padding-16xl);
         padding-right: var(--padding-16xl);
         box-sizing: border-box;
+
     }
+
+
 
     .desktop-1 {
         gap: 39px;

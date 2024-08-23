@@ -10,22 +10,23 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/extra.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <div class="desktop-1">
         <nav class="navbar navbar-expand-lg navbar-light bg-color-bg p-3">
             <div class="container-fluid">
-                <img class="navbar-brand" loading="lazy" alt="" src="./public/logo.svg" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <img class="navbar-brand " loading="lazy" alt="" src="./public/logo.svg" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                    aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Ana Sayfa</a>
+                            <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./courses.html">Eğitimler</a>
@@ -34,25 +35,28 @@
                             <a class="nav-link disabled" aria-disabled="true">Eğitimler</a>
                         </li>
                     </ul>
-                    <div class="rightcontent">
+                    <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+
                         <div class="search-box">
                             <form class="d-flex" role="search">
                                 <div class="input-group form-container">
-                                    <input class="form-control search-input" type="text" name="search" placeholder="Ara"
+                                    <input class="form-control search-input" type="text" placeholder="Ara"
                                         aria-label="Ara" onclick="highlightBorder()">
                                     <button class="navbar-search-icon" type="button"><i
                                             class="bi bi-search"></i></button>
                                 </div>
                             </form>
-                        </div>
 
-                        <img class="ggprofile-icon" loading="lazy" alt="" src="./public/ggprofile.svg" />
-                    </div>
+                        </div>
+                        <button class="signin-button">
+                            <div class="signin-text">Giriş Yap</div>
+                            <img class="ggprofile-icon" alt="" src="./public/ggprofile.svg" />
+                        </button>
+
+                    </ul>
                 </div>
             </div>
     </div>
-
-
     </nav>
     <div class="frame-parent">
         <div class="frame-group">

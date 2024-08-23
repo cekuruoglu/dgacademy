@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/extra.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;900&display=swap" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-color-bg p-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <img class="navbar-brand" loading="lazy" alt="" src="./public/logo.svg" />
+            <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,67 +24,26 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Eğitimler</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Eğitimler</a>
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <div class="rightcontent">
-                    <div class="search-box">
-                        <form class="d-flex" role="search">
-                            <div class="input-group form-container">
-                                <input class="form-control search-input" type="text" name="search" placeholder="Ara"
-                                    aria-label="Ara" onclick="highlightBorder()">
-                                <button class="navbar-search-icon" type="button"><i class="bi bi-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
-
-                    <img class="ggprofile-icon" loading="lazy" alt="" src="./public/ggprofile.svg" />
-                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
-        </div>
-
-
     </nav>
 
-    <div class="masthead" style="background-image: url('./public/backimage.png');">
-        <div class="welcome">
-            <h1 class="hero-header">DGA Eğitime Hoşgeldiniz</h1>
-            <div class="hero-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                tincidunt metus arcu. Vestibulum id aliquam metus.
-            </div>
-        </div>
-        <div class="signinbutton-wrapper">
-            <button class="button" id="myButton">
-                <div class="signup-inner">
-                    <div class="button-text">KAYIT OL</div>
-                </div>
-                <img class="epright-icon" alt="" src="./public/epright.svg" />
-            </button>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sit placeat qui cum corporis.
-                Consequatur blanditiis delectus possimus molestiae a beatae magni debitis aliquam repellat hic, soluta
-                laudantium laboriosam nostrum.
-                Culpa minima labore, quam itaque veniam cumque consequuntur soluta illo quia eum nesciunt tempore,
-                placeat ipsam atque eius iusto aut voluptatem a quidem ad dolorem. Tenetur odit accusantium voluptates
-                nihil.
-                Quod ipsa odit fuga sunt itaque nemo eligendi doloribus ratione ipsum aliquid! Id ipsa tenetur eveniet
-                quae vel facere cum aspernatur iure, maxime sequi temporibus magni aperiam rem sed obcaecati.
-            </div>
-        </div>
-    </div>
+
+
     <script>
 
         document.querySelector('.form-control').addEventListener('click', function () {

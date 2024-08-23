@@ -29,6 +29,13 @@ body {
 
 }
 
+#myNavbar {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
 .form-control {
     border: none;
     display: flex;
@@ -139,6 +146,7 @@ body {
     line-height: normal;
     letter-spacing: normal;
     gap: 21px;
+    margin-left: 20px;
 }
 
 .signin-text {
@@ -163,11 +171,21 @@ body {
     filter: invert(69%) sepia(81%) saturate(2097%) hue-rotate(5deg) brightness(116%) contrast(101%);
 }
 
-.masthead {
-    background-size: cover;
-    min-height: 60vh;
-    position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px rgba (0, 0, 0, .2);
-
+a.button-text {
+    text-decoration: none;
+    color: inherit;
+    color: #fc0;
 }
+
+@media screen and (max-width: 991.98px) {
+    .signin-button {
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 725px) {}
+
+@media screen and (max-width: 450px) {}
