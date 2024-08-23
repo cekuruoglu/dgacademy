@@ -55,6 +55,11 @@ body {
     display: inline-block;
     min-width: 26px;
 
+
+}
+
+.form-control::placeholder:focus {
+    color: #fc0;
 }
 
 .form-control:focus {
@@ -72,9 +77,10 @@ body {
 
 .search-box {
     padding-left: 4px;
+    padding-right: 4px;
     border-radius: 100px;
     border: 1px solid var(--color-white);
-    width: 105px;
+    width: 150px;
     height: 42px;
     display: flex;
     flex-direction: row;
@@ -84,9 +90,21 @@ body {
     letter-spacing: normal;
 }
 
+.search-box:hover {
+    border: 3px solid #fc0;
+}
+
+.search-box:hover .form-control::placeholder {
+    color: #fc0;
+}
+
+.search-box:hover .navbar-search-icon {
+    color: #fc0;
+}
+
 .search-box.highlighted {
     border: 3px solid #fc0;
-    width: 200px !important;
+    width: 250px !important;
 
 }
 
@@ -95,7 +113,7 @@ body {
 }
 
 .rightcontent.expanded {
-    width: 250px;
+    width: 450px;
 
 }
 
@@ -103,6 +121,46 @@ body {
 .navbar-search-icon.highlighted {
     color: #fc0;
 
+}
+
+
+.signin-button {
+    background-color: transparent;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 100px;
+    border: 1px solid var(--color-white);
+    width: 150px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: 21px;
+}
+
+.signin-text {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 26px;
+}
+
+.signin-button:hover {
+    border: 3px solid #fc0;
+}
+
+.signin-button:hover .signin-text {
+    color: #fc0;
+}
+
+.signin-button:hover .ggprofile-icon {
+    filter: invert(69%) sepia(81%) saturate(2097%) hue-rotate(5deg) brightness(116%) contrast(101%);
 }
 
 .masthead {

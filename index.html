@@ -27,7 +27,7 @@
               <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Eğitimler</a>
+              <a class="nav-link" href="./courses.html">Eğitimler</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Eğitimler</a>
@@ -37,14 +37,17 @@
             <div class="search-box">
               <form class="d-flex" role="search">
                 <div class="input-group form-container">
-                  <input class="form-control search-input" type="text" name="search" placeholder="Ara" aria-label="Ara"
+                  <input class="form-control search-input" type="text" placeholder="Ara" aria-label="Ara"
                     onclick="highlightBorder()">
                   <button class="navbar-search-icon" type="button"><i class="bi bi-search"></i></button>
                 </div>
               </form>
-            </div>
 
-            <img class="ggprofile-icon" loading="lazy" alt="" src="./public/ggprofile.svg" />
+            </div>
+            <button class="signin-button">
+              <div class="signin-text">Giriş Yap</div>
+              <img class="ggprofile-icon" alt="" src="./public/ggprofile.svg" />
+            </button>
           </div>
         </div>
       </div>
@@ -213,33 +216,7 @@
     </div>
   </footer>
   </div>
-  <script>
-
-    document.querySelector('.form-control').addEventListener('click', function () {
-      const searchBox = document.querySelector('.search-box');
-      searchBox.classList.add('highlighted');
-      const searchIcon = document.querySelector('.navbar-search-icon');
-      searchIcon.classList.add('highlighted');
-      const rightContent = document.querySelector('.rightcontent');
-      rightContent.classList.add('expanded');
-    });
-
-
-    document.addEventListener('click', function (event) {
-      const searchBox = document.querySelector('.search-box');
-      const searchIcon = document.querySelector('.navbar-search-icon');
-      const rightContent = document.querySelector('.rightcontent');
-      const searchInput = document.querySelector('.form-control');
-
-      if (!searchBox.contains(event.target) && !searchIcon.contains(event.target)) {
-        searchBox.classList.remove('highlighted');
-        searchIcon.classList.remove('highlighted');
-        rightContent.classList.remove('expanded');
-
-        searchInput.value = '';
-      }
-    });
-  </script>
+  <script src="./js/searchbox.js"></script>
 </body>
 
 </html>

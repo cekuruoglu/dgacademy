@@ -104,11 +104,11 @@
 }
 
 .rightcontent {
-    width: 165px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     gap: var(--gap-lg);
 }
 
@@ -161,8 +161,8 @@
 
 .ggprofile-icon {
     cursor: pointer;
-    height: 42px;
-    width: 42px;
+    height: 32px;
+    width: 32px;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
@@ -255,6 +255,7 @@
     justify-content: center;
     gap: var(--gap-3xs);
     padding: 0 10px 0 10px;
+    transition: 0.3s;
 }
 
 
@@ -266,12 +267,15 @@
 
 .button:hover .button-text {
     color: white;
+    transition: 0.3s;
 }
 
 .button:hover .epright-icon {
 
 
     filter: brightness(0) invert(1);
+    transition: 0.3s;
+
 
 }
 
